@@ -15,7 +15,12 @@
     <meta property="og:site_name" content="Chez TonTon" />
     <meta property="og:title" content="Chez TonTon · Le goût des bons moments" />
     <meta property="og:description" content="Bar et cave à Pontchâteau. Bières, vins et découvertes, sur place ou à emporter." />
-    <meta property="og:image" content="/og.jpg" />
+    <!-- TODO(tonton) switch these URLs to the final domain -->
+    <meta property="og:url" content="https://chez-tonton-pontchateau.vercel.app/" />
+    <meta property="og:image" content="https://chez-tonton-pontchateau.vercel.app/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Chez TonTon, bar et cave à Pontchâteau : « Le goût des bons moments. »" />
     <meta name="twitter:card" content="summary_large_image" />
     <script>
       // Pick the hero mode before first paint: pinned scroll story on roomy screens, static poster otherwise.
@@ -69,6 +74,7 @@
 
     <header class="site-header" data-header>
       <div class="site-header__inner">
+        <!-- TODO(tonton) swap for the official logo master: this PNG is a frontal reconstruction from the facade photo -->
         <a class="brand" href="#top" aria-label="Chez TonTon, retour en haut de page">
           <picture>
             <source type="image/avif" srcset="/img/logo-240.avif 240w, /img/logo-480.avif 480w" sizes="(max-width: 760px) 96px, 150px" />
