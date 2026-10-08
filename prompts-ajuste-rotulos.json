@@ -1,0 +1,27 @@
+{
+  "request": "Aplicar logo Chez TonTon nas garrafas antes sem rótulo",
+  "method": "built_in_image_editing",
+  "jobs": [
+    {
+      "key": "03-bouteille-alpha",
+      "folder": "03-camadas",
+      "alpha": true,
+      "prompt": "Use case: precise-object-edit. Image 1 is target beer bottle production asset. Image 2 is exact CHEZ TONTON mascot logo to apply. Change ONLY the bottle's currently blank central body by adding a refined warm cream paper label bearing the supplied full Chez TonTon logo, logo clearly recognizable orange-bearded glasses mascot and burgundy banner with exact 'CHEZ TONTON'. Wrap label realistically around cylindrical glass with correct perspective, slightly damp texture and condensation continuing naturally over label. Preserve entire bottle proportions, lean, cap, lighting, amber glass, all edges, original composition and actual transparent background. No extra wording, invented brewery, alcohol percentage, price or other brands. Logo occupies generous central label area without clutter. Only one bottle, no new background. Maintain original alpha outside bottle, clean usable transparent PNG."
+    },
+    {
+      "key": "10-pov-frigo",
+      "folder": "02-background",
+      "prompt": "Use case: precise-object-edit. Image 1 is target cinematic refrigerator POV. Image 2 is the full exact Chez TonTon mascot logo for labels. Add warm cream paper labels carrying the supplied Chez TonTon logo to the visible blank bottle bodies, especially the central amber bottle being held. Make central logo clear and legible, adjust perspective/curvature and refraction for each bottle, with condensation continuing naturally on labels. Distant/foreground bottles may have partial labels matching their crop/blur. Preserve absolutely the camera angle, hand anatomy/position, man in background, all bottle geometry, fridge environment, cold blue light and warm amber beyond door. No new people/objects, no caption, no logo overlay floating outside bottle, no brewery claims or extra text. It is a conceptual branding application, not proof of a real bottled product. Only change addition of labels, no global restyle."
+    },
+    {
+      "key": "01-direction-desktop",
+      "folder": "01-conceito",
+      "prompt": "Use case: precise-object-edit. Image 1 is our full-page Chez TonTon desktop website design target. Image 2 is exact full Chez TonTon mascot logo for bottle labels. Make just ONE refinement: put a premium warm cream paper label with supplied Chez TonTon logo on the blank bottle in the hero and on the clearly illustrated isolated bottle still-lifes in the Bières/Vins/Spiritueux editorial selection cards. Keep logo recognizable, apply at plausible scale, perspective and curvature. The logo contains orange-bearded glasses mascot and burgundy CHEZ TONTON banner. Preserve entire website design EXACTLY: layout, all headings/buttons/copy, backgrounds, liquid arc, glass, grain, colors, navigation and photos. DO NOT relabel or modify brands visible in the actual bar/cave photographs. DO NOT add branding to glasses. No new wordings, dates, products or brewery claim. Logo labels only, no redesign, same full-page framing."
+    },
+    {
+      "key": "12-direction-mobile",
+      "folder": "01-conceito",
+      "prompt": "Use case: precise-object-edit. Image 1 is target Chez TonTon mobile website proposal. Image 2 is full exact Chez TonTon mascot logo. Only add a warm cream paper label with supplied Chez TonTon mascot logo to the currently unlabeled amber beer bottle in the hero. Correct perspective, natural paper on curved glass and condensation, recognizable logo 'CHEZ TONTON'. Preserve all other image elements exactly: mobile layout, typography/copy, nav, existing logos, buttons, liquid, glass, actual-room concept photo and people photography, colors, framing and background texture. No brand on glass, no additional copy, no rewriting headings, no brewery claim. Same dimensions/composition, a precise label edit."
+    }
+  ]
+}

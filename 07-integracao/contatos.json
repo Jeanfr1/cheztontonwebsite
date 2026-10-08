@@ -1,0 +1,75 @@
+{
+  "name": "Chez TonTon Bar Cave",
+  "address": "20 rue du Vélodrome, 44160 Pontchâteau",
+  "telephone": "+33240668419",
+  "telephone_display": "02 40 66 84 19",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chez+TonTon+20+rue+du+Velodrome+44160+Pontchateau",
+  "instagram": "https://www.instagram.com/cheztontonpontchateau/",
+  "facebook": "https://www.facebook.com/ChezTonTonPontchateau/",
+  "website_listed": "https://cheztontonpontchateau.com",
+  "website_content_not_retrieved": true,
+  "online_booking_confirmed": false,
+  "email": null,
+  "services": [
+    "Bar et cave",
+    "Bières et vins sur place ou à emporter",
+    "Cadeaux entreprise et CE",
+    "Location de matériel",
+    "Produits locaux",
+    "Verreries et accessoires"
+  ],
+  "hours_from_supplied_screenshot": {
+    "monday": [
+      [
+        "15:00",
+        "20:00"
+      ]
+    ],
+    "tuesday": [
+      [
+        "10:00",
+        "13:00"
+      ],
+      [
+        "15:00",
+        "20:00"
+      ]
+    ],
+    "wednesday": [
+      [
+        "10:00",
+        "13:00"
+      ],
+      [
+        "15:00",
+        "20:00"
+      ]
+    ],
+    "thursday": [
+      [
+        "10:00",
+        "13:00"
+      ],
+      [
+        "15:00",
+        "21:00"
+      ]
+    ],
+    "friday": [
+      [
+        "10:00",
+        "21:00"
+      ]
+    ],
+    "saturday": [
+      [
+        "10:00",
+        "21:00"
+      ]
+    ],
+    "sunday": []
+  },
+  "timezone": "Europe/Paris",
+  "confirm_hours_before_publish": true,
+  "events": []
+}

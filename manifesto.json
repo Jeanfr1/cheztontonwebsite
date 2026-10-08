@@ -1,0 +1,134 @@
+[
+  {
+    "file": "01-conceito/01-direction-desktop.png",
+    "width": 793,
+    "height": 1983,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 2724265,
+    "sha256": "e35e76254ca108b021111fbdf8f51c084eb58cf0a3336f9ae2daf295f6ed39c1",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "01-conceito/12-direction-mobile.png",
+    "width": 887,
+    "height": 1774,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 2679337,
+    "sha256": "a48b6c4639b6b45bd98c3ff45823f03efdf453e3268a38b09f6e9a3e6d215d15",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "02-background/02-papier-texture.png",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 2674650,
+    "sha256": "bc22ae88dfab5d3b620cc255ef475173c97da3d6ad9a66ffa696a3977028a55c",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "02-background/10-pov-frigo.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 2324334,
+    "sha256": "81e96ac1771f9fca5e848d0738a8c28dc85890f8777c7626a9f64d018b11c28a",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "03-camadas/03-bouteille-alpha.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "bytes": 1806641,
+    "sha256": "c67f0d9e3f5d8f2a3033739b7f88a024227cdcb752c3a39230e32ee093c877a9",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "03-camadas/04-ruban-biere-alpha.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "bytes": 1761790,
+    "sha256": "a6d25306044edbbab946b115c4fa9812b4d032e60332b211393acbc58e69dc6b",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "03-camadas/05-verre-alpha.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "bytes": 2230961,
+    "sha256": "07e4598d29dbe68dcf3bc792d4a0dfb406b4b80d1d50fe97c348490f7463e137",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "04-secoes/06-bar-photo-retouche.png",
+    "width": 1575,
+    "height": 998,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 2451507,
+    "sha256": "efbc075da444a8bfd8120cf935853a0439e2e7fa2fe18918d9e43c940f302950",
+    "provenance": "edited_supplied_photo"
+  },
+  {
+    "file": "04-secoes/07-cave-photo-retouche.png",
+    "width": 1522,
+    "height": 1033,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 3155283,
+    "sha256": "a4cb9a385857473076dcf6478d32241dbe79f5f1982c6f8e3ccdc83f40eef4db",
+    "provenance": "edited_supplied_photo"
+  },
+  {
+    "file": "04-secoes/09-pression-editorial.png",
+    "width": 1006,
+    "height": 1563,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 1938953,
+    "sha256": "b1d84fa8f50a926d1ed506978cdd84f3a55a4ff58822f57789af15961ea1850a",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "04-secoes/11-pov-convivialite.png",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "alpha_range": null,
+    "bytes": 2357940,
+    "sha256": "3a641ce6c8d087b1681bef33b068ff31e51f9910b49ee56328615bfb4b3a2ee0",
+    "provenance": "generated_concept"
+  },
+  {
+    "file": "05-logo/08-logo-chez-tonton-transparent.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "bytes": 1461883,
+    "sha256": "2a465ce56d5cb6e0cb6df7fc410187a3c58fba54d89e464794cb876e12fdee4f",
+    "provenance": "logo_reconstruction_from_photo"
+  }
+]

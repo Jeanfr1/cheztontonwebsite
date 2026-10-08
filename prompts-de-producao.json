@@ -1,0 +1,97 @@
+{
+  "method": "built_in_image_generation_and_editing",
+  "jobs": [
+    {
+      "key": "01-direction-desktop",
+      "folder": "01-conceito",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/estilodobackgrounddosite.png",
+        "/workspace/scratch/eff9c653a6e7/upload/ideiapraanimaçao.png",
+        "/workspace/scratch/eff9c653a6e7/upload/Screenshot 2026-10-08 at 10.01.45.png",
+        "/workspace/scratch/eff9c653a6e7/upload/Screenshot 2026-10-08 at 10.01.56.png",
+        "/workspace/scratch/eff9c653a6e7/upload/Screenshot 2026-10-08 at 10.02.03.png"
+      ],
+      "prompt": "Use case: ui-mockup. Create a breathtaking highly professional premium FULL-PAGE DESKTOP WEBSITE DESIGN proposal for Chez TonTon Bar Cave in Pontchâteau, France. Tall portrait 1536x2560. Image 1 is art direction: textured cream paper, HUGE bold condensed ink typography with muted malt-gold accents and woodcut hops. Image 2 inspires cinematic floating amber beer/glass and fluid arc; NO laptop mockup. Image 3 is existing CHEZ TONTON mascot logo; use faithful brand identity, burgundy banner and yellow letters, friendly orange bearded man with round glasses and burgundy cap. Images 4 and 5 are actual bar/cave: use these real photographs as small interior panels, preserve modest industrial wood barrel environment, not fantasy brewery. Layout: tiny logo on top left, clean navigation 'Le bar' 'La cave' 'Les rendez-vous' 'Nous trouver'. Hero on textured warm cream #F2EBDC, gigantic condensed headline 'LE GOÛT DES BONS MOMENTS.' wrapping three lines, black and muted ochre, left two thirds; right third amber unbranded beer bottle and photorealistic golden beer glass with creamy foam and cinematic amber splash curling in an elegant arc. Heading integrates foreground and background layers, grounded shadows, handcrafted premium graphic design, no fake own beer label. Small 'BAR · CAVE · PONTCHÂTEAU', buttons 'Découvrir le lieu' and 'Nous trouver'. Next asymmetrical split with title 'DU COMPTOIR À LA CAVE.' and actual bar and cave photos. Next full-bleed convivial adults around camera photograph, title 'LES BONS MOMENTS SE PARTAGENT.' Next cream editorial section 3 large categories 'Bières' 'Vins' 'Spiritueux', tasteful unbranded bottle still-lifes. Next burgundy block 'LE PROCHAIN RENDEZ-VOUS ?' with 'Suivre l’actualité' and no dates. Next services cards 'Cadeaux entreprise' 'Location de matériel' 'Produits locaux'. Final warm charcoal contact block 'ON SE RETROUVE CHEZ TONTON.' address '20 rue du Vélodrome · Pontchâteau', tel '02 40 66 84 19'. Exceptional typography alignment and whitespace; natural material texture, sophisticated lively personality. No ecommerce cart, no invented prices, reviews, awards or reservation engine. Text accurately French, full design readable. Concept images not claimed actual customers."
+    },
+    {
+      "key": "02-papier-texture",
+      "folder": "02-background",
+      "prompt": "Use case: stylized-concept. Seamless-looking premium cream vintage craft paper texture for website background, square 2048x2048. Warm ivory #F2EBDC, very subtle fine natural fibers and tiny irregular grain, evenly lit, no strong vignettes, no corners or fold creases, no stains, no lettering or illustrations, no watermark. Clean understated printed poster tactile surface suited behind bold charcoal typography. It is a background asset, not a poster. No symbols or text."
+    },
+    {
+      "key": "03-bouteille-alpha",
+      "folder": "03-camadas",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Transparent PNG production layer for cinematic beer bar website. A single ordinary elegant 330ml brown amber glass beer bottle with gold crown cap, realistic condensation, absolutely NO label, text, emblem or branding. Bottle vertical with slight 8 degree lean, entire cap and base in frame, generous transparent margins. Side studio daylight on warm amber glass, tiny realistic droplets, premium macro product photo, true proportions and physically plausible glass. Isolate bottle with actual transparent background, no floor, no baked rectangular shadow, no opaque backdrop, no other objects. This is generic illustrative imagery, not a beer brewed by Chez TonTon."
+    },
+    {
+      "key": "04-ruban-biere-alpha",
+      "folder": "03-camadas",
+      "alpha": true,
+      "prompt": "Use case: stylized-concept. Landscape transparent PNG production asset for a premium cinematic beer website. A single visually elegant suspended ribbon of golden amber beer liquid forming a large diagonal open S curve from top left to bottom right. Thin translucent liquid with believable surface tension, restrained small droplets, a few foam bubbles at one tip, high-speed beverage photography realism, warm malty light, detailed caustics. Whole arc contained in frame with ample margin. No glass, no bottles, no hops, no words. Actual transparent background with clean alpha including translucent liquid, no black background or opaque color panel, no rectangle. Luxury craft liquid movement asset, avoid chaos and endless particles."
+    },
+    {
+      "key": "05-verre-alpha",
+      "folder": "03-camadas",
+      "alpha": true,
+      "prompt": "Use case: product-mockup. True transparent-background PNG production layer. One photorealistic tall tulip beer glass filled with clear golden amber beer and a beautifully textured creamy foam head. Natural bubbles and condensation, realistic refraction, full foot/base and rim in frame, isolated glass slightly leaning 3 degrees, generous clear margins. Elegant warm side lighting, extremely precise natural beverage photography, no logo, no text, no label. No splash, no hands, no extra objects, no opaque floor or backdrop; actual transparency suitable on ivory website. Generic conceptual glass not an actual photographed product from a brewery."
+    },
+    {
+      "key": "06-bar-photo-retouche",
+      "folder": "04-secoes",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/Screenshot 2026-10-08 at 10.01.56.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit this supplied real photo of Chez TonTon bar. ONLY remove the left and right circular navigation arrow overlays and give a subtle professional warm exposure/color grade. Preserve the entire room exactly: counter, taps, fridges, barrels, tables, chairs, ceiling tiles, ceiling lights, floor, signs and all geometry. No new furniture, no additional objects, no people, no luxurious invented architecture. Maintain same framing and natural documentary realism. Output clean landscape photograph without UI arrows or borders. Do not change brand signage or text except removal of the navigation overlays."
+    },
+    {
+      "key": "07-cave-photo-retouche",
+      "folder": "04-secoes",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/Screenshot 2026-10-08 at 10.02.03.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Edit supplied actual Chez TonTon wine and beer shop photo. ONLY remove circular left/right gallery arrow overlays and subtle professional balanced warm color grade. Preserve every shelf, bottle, colorful crate, counter, wall, signage, floor, all proportions and framing. No architecture redesign, no new products, no text changes, no removal of crates, no people. Natural faithful documentary photo, not imagined boutique, no UI overlays or borders."
+    },
+    {
+      "key": "08-logo-chez-tonton-transparent",
+      "folder": "05-logo",
+      "alpha": true,
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/Screenshot 2026-10-08 at 10.01.45.png"
+      ],
+      "prompt": "Use case: background-extraction. Restore the EXISTING CHEZ TONTON logo visible on this photographed building sign as a faithful clean straight-on transparent PNG. The sign alone is target; discard building, sky, phone-photo framing, wall shadows and perspective. Preserve original distinctive illustrated mascot: cheerful stocky orange-bearded man, round glasses, small burgundy cap, black shirt, holding small beer glass in one hand, two green bottles on right, muted green hops at lower left. Keep large curved burgundy banner with exact pale golden yellow uppercase letters 'CHEZ TONTON', dark navy contour, curved dark arch surrounding mascot. Match supplied identity and illustration shapes; do not invent new identity or photorealistic person, no gold luxury crest. Front-on clean high resolution artwork, existing palette with orange/beige skin/beard, burgundy, navy and muted green. Full logo within clear generous margins, crisp edges, typography legible exactly C H E Z space T O N T O N. Actual transparent background everywhere outside logo silhouette, including holes in ends of banner. No white canvas, no building. Only this logo, no tagline, no extra symbols."
+    },
+    {
+      "key": "09-pression-editorial",
+      "folder": "04-secoes",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/ideiaprasections3.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Reference image is lighting/framing inspiration ONLY, create original portrait editorial photograph for Chez TonTon bar website. Close up hands of adult bartender operating a real chrome draft beer tap, filling one tilted clear glass with golden beer. Accurate hand anatomy, physically plausible tap spout pouring into glass rim, golden amber stream, textured natural foam, dark charcoal bar shadows and warm cinematic light. Sophisticated documentary 50mm lens shallow depth, no visible face or identifiable staff, no logos, no text or watermark. This is concept campaign photography not real business staff. Premium cinematic but plausible, single tap/glass and hands, no fantasy brewery."
+    },
+    {
+      "key": "10-pov-frigo",
+      "folder": "02-background",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/ideiasections.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Original wide 16:9 cinematic POV photograph from INSIDE a refrigerated beer cabinet, based on camera language of reference, not same products. Looking between brown and green unbranded beer bottles, realistic cold condensation and cold muted blue light inside fridge, an adult hand reaches toward center bottle from doorway; softly blurred adult aged 35 behind doorway with warm amber bar light beyond. Premium commercial beverage photography, shallow depth, photorealistic glass and anatomy, readable depth from cold foreground to warm world behind. Center bottle only partially lifted, no brand labels or text anywhere. No minors, no unrealistic fingers. Concept campaign image, not actual Chez TonTon customers or equipment."
+    },
+    {
+      "key": "11-pov-convivialite",
+      "folder": "04-secoes",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/upload/ideaisprasections.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create original wide 16:9 premium candid convivial beer-bar campaign photo from very low POV in middle of a table, inspired by low-angle reference. Four clearly adult friends aged 30–45 of varied appearances, laughing naturally, leaning in and raising beer glasses gently around the lens; realistic authentic warmth, candid expressions not staged stock smiles. Wooden ceiling softly blurred, warm light, one person with glasses, casual elegant clothes. Hands anatomically accurate, believable glasses with amber beer, no logos or text, no intoxication theatrics. Shot on 24mm photographic lens, natural film texture, amber highlights and deep charcoal. Not depicting actual customers or staff of Chez TonTon; conceptual campaign only. Entire faces within frame, no giant fisheye distortion."
+    },
+    {
+      "key": "12-direction-mobile",
+      "folder": "01-conceito",
+      "refs": [
+        "/workspace/scratch/eff9c653a6e7/generated_images/exec-1dba690c-aad6-46ce-b558-7d5b39183f35.png"
+      ],
+      "prompt": "Use case: ui-mockup. Create premium MOBILE WEBSITE ART DIRECTION for Chez TonTon Bar Cave, faithfully adapting the supplied desktop concept reference. Tall portrait 1024x2048, no phone bezel. Cream craft paper with subtle grain, charcoal and muted malty ochre huge condensed printed typography, burgundy buttons, delicate woodcut hops, existing illustrated CHEZ TONTON friendly orange-bearded glasses mascot logo. Top slim navigation small logo and 'Nous trouver'. Hero title in three clear lines 'LE GOÛT DES BONS MOMENTS.' with naturally realistic golden beer glass, unbranded brown bottle and one beautiful amber liquid curve. Maintain legible lettering separate from imagery and ample space, no labels suggesting own-brewed beer. Under title burgundy CTA 'Découvrir le lieu'. Then paper section title 'DU COMPTOIR À LA CAVE.' with small actual room photo inspired by reference preserving industrial barrel/wood interior. Then cinematic strip of adult friends, headline 'LES BONS MOMENTS SE PARTAGENT.'. Finally burgundy 'LE PROCHAIN RENDEZ-VOUS ?' with button 'Suivre l’actualité'. Mobile layout single-column, big touch targets, strong professional UI hierarchy; do not squeeze whole desktop page into phone. Exact French text, no prices, reviews, dates, awards, cart or reservation engine. This is proposed design, not official current site."
+    }
+  ]
+}

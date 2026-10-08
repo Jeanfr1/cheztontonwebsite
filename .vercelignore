@@ -1,0 +1,14 @@
+# The creative kit stays in the repo as the source of truth, but is not part of the site.
+01-conceito/
+02-background/
+03-camadas/
+04-secoes/
+05-logo/
+06-roteiros/
+07-integracao/
+catalogo.html
+manifesto.json
+prompts-de-producao.json
+prompts-ajuste-rotulos.json
+LEIA-ME-KIT.md
+.github/
