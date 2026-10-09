@@ -1,5 +1,5 @@
 // Hero « De la cave au comptoir »: native scroll drives one progress value (0–1) over the
-// 260svh track; layers only get transform/opacity (the beer arc uses a short-lived mask).
+// 225svh track; layers only get transform/opacity (the beer arc uses a short-lived mask).
 // Flat mode (phones, short screens, reduced motion) leaves the CSS poster untouched.
 import meta from '../data/asset-meta.json';
 import { segments as S } from '../data/timeline.js';
@@ -19,7 +19,6 @@ export function initHero({ onTone } = {}) {
   if (!hero) return;
   const stage = hero.querySelector('[data-stage]');
   const L = Object.fromEntries([...stage.querySelectorAll('[data-layer]')].map((el) => [el.dataset.layer, el]));
-  const windows = [...stage.querySelectorAll('[data-window]')];
   const bar = stage.querySelector('[data-progress]');
   const root = document.documentElement;
   const mqRoomy = matchMedia('(min-width: 761px) and (min-height: 560px)');
@@ -32,7 +31,6 @@ export function initHero({ onTone } = {}) {
   let raf = 0;
   let geo = null;
   let tone = null;
-  let live = null;
 
   const b = meta.bouteille;
   L.bouteille.style.transformOrigin = `${b.anchor.x * 100}% ${b.anchor.y * 100}%`;
@@ -88,7 +86,6 @@ export function initHero({ onTone } = {}) {
     const r = span(p, S.revelation);
     const g = span(p, S.composition);
     const a = span(p, S.arc);
-    const f = span(p, S.lieu);
 
     // 1 · Frigo: slow pull-back, then the cold light gives way to paper.
     const fade = inOut(sub(r, 0.2, 0.9));
@@ -99,19 +96,18 @@ export function initHero({ onTone } = {}) {
     setTone(fade > 0.55 ? 'paper' : 'cold');
 
     // 2 · The bottle appears on the photographed one, then travels toward the camera to its poster pose.
-    const leave = inOut(sub(f, 0, 0.42));
     const m = inOut(sub(r, 0.22, 1));
     const lift = Math.sin(Math.PI * m);
-    const bScale = lerp(geo.scale0, 1, m) * (1 + 0.05 * lift) * (1 - 0.05 * leave);
-    const bx = geo.dx * (1 - m) + leave * W * 0.06;
+    const bScale = lerp(geo.scale0, 1, m) * (1 + 0.05 * lift);
+    const bx = geo.dx * (1 - m);
     const by = geo.dy * (1 - m) - lift * H * 0.035 - a * H * 0.01;
-    pose(L.bouteille, sub(r, 0, 0.28) * (1 - leave), `translate3d(${bx.toFixed(1)}px, ${by.toFixed(1)}px, 0) rotate(${(geo.rot0 * (1 - m)).toFixed(2)}deg) scale(${bScale.toFixed(4)})`);
+    pose(L.bouteille, sub(r, 0, 0.28), `translate3d(${bx.toFixed(1)}px, ${by.toFixed(1)}px, 0) rotate(${(geo.rot0 * (1 - m)).toFixed(2)}deg) scale(${bScale.toFixed(4)})`);
 
     // 3 · The glass rises in the foreground.
     const ge = out(g);
     const gy = (1 - ge) * H * 0.1 - a * H * 0.014;
-    pose(L.verre, ge * (1 - leave), `translate3d(${(leave * W * 0.08).toFixed(1)}px, ${gy.toFixed(1)}px, 0) scale(${(lerp(1.08, 1, ge) * (1 - 0.05 * leave)).toFixed(4)})`);
-    pose(L.shadow, Math.min(sub(r, 0.5, 1), 1) * (1 - leave), `scaleX(${lerp(0.7, 1, ge).toFixed(3)})`);
+    pose(L.verre, ge, `translate3d(0, ${gy.toFixed(1)}px, 0) scale(${lerp(1.08, 1, ge).toFixed(4)})`);
+    pose(L.shadow, sub(r, 0.5, 1), `scaleX(${lerp(0.7, 1, ge).toFixed(3)})`);
 
     // 4 · The arc pours in along its own diagonal, then drifts a little so the composition breathes.
     const k = inOut(sub(g, 0.15, 1));
@@ -119,25 +115,13 @@ export function initHero({ onTone } = {}) {
     const mask = k >= 1 ? 'none' : `linear-gradient(118deg, #000 ${edge - 14}%, transparent ${edge + 2}%)`;
     L.ruban.style.webkitMaskImage = mask;
     L.ruban.style.maskImage = mask;
-    const rx = -a * W * 0.018 + leave * W * 0.1;
+    const rx = -a * W * 0.018;
     const ry = a * H * 0.022 - (1 - k) * H * 0.02;
-    pose(L.ruban, sub(g, 0.1, 0.5) * (1 - leave), `translate3d(${rx.toFixed(1)}px, ${ry.toFixed(1)}px, 0) rotate(${(a * 3).toFixed(2)}deg)`);
+    pose(L.ruban, sub(g, 0.1, 0.5), `translate3d(${rx.toFixed(1)}px, ${ry.toFixed(1)}px, 0) rotate(${(a * 3).toFixed(2)}deg)`);
 
     // Motion signature, read while the poster holds still.
-    const sig = sub(g, 0.55, 1) * (1 - sub(f, 0, 0.35));
+    const sig = sub(g, 0.55, 1);
     pose(L.signature, sig, `translate3d(0, ${((1 - sig) * 16).toFixed(1)}px, 0) rotate(-4deg)`);
-
-    // 5 · The place: real bar and cave photos open as windows (24px rise, staggered).
-    windows.forEach((w, i) => {
-      const t = out(sub(f, 0.34 + i * 0.14, 0.82 + i * 0.14));
-      pose(w, t, `translate3d(0, ${((1 - t) * 24).toFixed(1)}px, 0) rotate(var(--rot))`);
-    });
-    const isLive = f > 0.75;
-    if (isLive !== live) {
-      live = isLive;
-      L.windows.classList.toggle('is-live', isLive);
-      windows.forEach((w) => (w.tabIndex = isLive ? 0 : -1));
-    }
 
     bar.style.transform = `scaleX(${p.toFixed(4)})`;
   }
@@ -162,15 +146,13 @@ export function initHero({ onTone } = {}) {
   }
 
   function clear() {
-    [...Object.values(L), ...windows].forEach((el) => {
+    Object.values(L).forEach((el) => {
       el.style.removeProperty('opacity');
       el.style.removeProperty('visibility');
       el.style.removeProperty('transform');
       el.style.removeProperty('mask-image');
       el.style.removeProperty('-webkit-mask-image');
     });
-    windows.forEach((w) => (w.tabIndex = -1));
-    live = null;
   }
 
   function apply() {

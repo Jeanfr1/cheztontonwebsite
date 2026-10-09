@@ -26,14 +26,14 @@
 
 ## 🚀 Overview
 
-**Chez TonTon** is a bar and a *cave* (bottle shop) at 20 rue du Vélodrome in Pontchâteau: beers and wines on site or to take away, spirits, local products and glassware. The site tells that in one move: the camera starts **inside the fridge**, a bottle lifts out of the shot, the cold light gives way to a cream beer-poster, a glass and an arc of beer fill the composition, and the real bar and cave open up as two photo windows. *De la cave au comptoir.*
+**Chez TonTon** is a bar and a *cave* (bottle shop) at 20 rue du Vélodrome in Pontchâteau: beers and wines on site or to take away, spirits, local products and glassware. The site tells that in one move: the camera starts **inside the fridge**, a bottle lifts out of the shot, the cold light gives way to a cream beer-poster, a glass and an arc of beer fill the composition, and the poster hands over to the real bar and cave in the next section. *De la cave au comptoir.*
 
 The rest of the page keeps the poster language (condensed type, cream paper, malt and burgundy, engraved hops, torn edges) and keeps the two real calls to action close at hand: **Nous trouver** (map) and **Appeler TonTon** (phone).
 
 - **Cinematic first impression**: a pinned hero assembled from the kit's photo and transparent layers, not a video
 - **Clear path to the venue**: map and phone in the header, the hero, the sections and the contact block; no invented booking, newsletter or ticketing
 - **Built for every visitor**: static poster on phones, short screens, `prefers-reduced-motion` and without JavaScript; keyboard and screen-reader friendly
-- **Light**: 588 KB on a desktop first load (measured, 18 requests); the fridge and window photos are never downloaded on phones
+- **Light**: 423 KB on a desktop first load (measured, 16 requests); the fridge photo is never downloaded on phones
 
 <br />
 
@@ -42,21 +42,20 @@ The rest of the page keeps the poster language (condensed type, cream paper, mal
 ## 🎬 The hero animation
 
 <div align="center">
-  <a href="https://chez-tonton-pontchateau.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling through the hero: fridge POV, the bottle lifts out, cream poster with glass and beer arc, then the bar and cave photos open as windows" width="100%" /></a>
+  <a href="https://chez-tonton-pontchateau.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling through the hero: fridge POV, the bottle lifts out, then the cream poster with glass, beer arc and the signature De la cave au comptoir" width="100%" /></a>
   <sub>Scroll-scrubbed on the live site · captured at 1440 × 900</sub>
 </div>
 
 <br />
 
-The hero stays pinned for 2.6 screen heights (`260svh` track, `100svh` sticky stage) and follows the kit's timeline:
+The hero stays pinned for 2.25 screen heights (`225svh` track, `100svh` sticky stage) and follows the kit's timeline:
 
 | Scroll  | What happens                                                                                              |
 | :------ | :-------------------------------------------------------------------------------------------------------- |
-| 0–15%   | **Frigo**: point of view from inside the fridge, slow pull-back (1.06 → 1.02); title and both actions already usable |
-| 15–38%  | **Révélation**: the bottle appears on the photographed one, then swings upright toward the camera while the fridge dissolves to paper |
-| 38–58%  | **Composition**: the glass rises in the foreground and the beer arc pours in along its own diagonal       |
-| 58–78%  | **Arc**: short drift of the arc, objects settle so the poster reads; signature *De la cave au comptoir.*  |
-| 78–100% | **Le lieu**: objects step aside and the real **bar** and **cave** photos open as two taped windows (links to their sections) |
+| 0–19%   | **Frigo**: point of view from inside the fridge, slow pull-back (1.06 → 1.02); title and both actions already usable |
+| 19–49%  | **Révélation**: the bottle appears on the photographed one, then swings upright toward the camera while the fridge dissolves to paper |
+| 49–74%  | **Composition**: the glass rises in the foreground and the beer arc pours in along its own diagonal       |
+| 74–100% | **Arc**: short drift of the arc, objects settle so the poster reads; signature *De la cave au comptoir.*  |
 
 **Under the hood**
 
