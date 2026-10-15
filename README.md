@@ -5,7 +5,7 @@
 <h3>A one-page website for a bar and beer &amp; wine shop in Pontchâteau, built around a scroll-driven « De la cave au comptoir » hero.</h3>
 
 <p>
-  <a href="https://chez-tonton-pontchateau.vercel.app"><strong>🌐 Live site</strong></a>
+  <a href="https://chez-tonton-pontchateau5.vercel.app"><strong>🌐 Live site</strong></a>
   &nbsp;·&nbsp;
   <a href="#hero-animation"><strong>🎬 How the hero works</strong></a>
   &nbsp;·&nbsp;
@@ -13,7 +13,7 @@
 </p>
 
 <p>
-  <a href="https://chez-tonton-pontchateau.vercel.app"><img src="https://img.shields.io/badge/Vercel-Live-713343?style=for-the-badge&logo=vercel&logoColor=white" alt="Live on Vercel" /></a>
+  <a href="https://chez-tonton-pontchateau5.vercel.app"><img src="https://img.shields.io/badge/Vercel-Live-713343?style=for-the-badge&logo=vercel&logoColor=white" alt="Live on Vercel" /></a>
   <img src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 6" />
   <img src="https://img.shields.io/badge/sharp-AVIF%20%2F%20WebP-99CC00?style=for-the-badge&logo=sharp&logoColor=white" alt="sharp image pipeline" />
   <img src="https://img.shields.io/badge/JavaScript-ES2020-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -42,7 +42,7 @@ The rest of the page keeps the poster language (condensed type, cream paper, mal
 ## 🎬 The hero animation
 
 <div align="center">
-  <a href="https://chez-tonton-pontchateau.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling through the hero: fridge POV, the bottle lifts out, then the cream poster with glass, beer arc and the signature De la cave au comptoir" width="100%" /></a>
+  <a href="https://chez-tonton-pontchateau5.vercel.app"><img src=".github/assets/hero-scroll.gif" alt="Scrolling through the hero: fridge POV, the bottle lifts out, then the cream poster with glass, beer arc and the signature De la cave au comptoir" width="100%" /></a>
   <sub>Scroll-scrubbed on the live site · captured at 1440 × 900</sub>
 </div>
 
@@ -206,7 +206,7 @@ cheztontonwebsite/
 
 Hosted on **Vercel** and connected to this repository: every push to `main` ships to production. The creative kit stays in the repository but is excluded from deployments by `.vercelignore`.
 
-**Live site:** [chez-tonton-pontchateau.vercel.app](https://chez-tonton-pontchateau.vercel.app)
+**Live site:** [chez-tonton-pontchateau5.vercel.app](https://chez-tonton-pontchateau5.vercel.app)
 
 | Setting          | Value          |
 | :--------------- | :------------- |
